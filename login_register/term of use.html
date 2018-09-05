@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Policy page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="../images/icons/favicon.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../fonts/linearicons-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="../vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../css/util.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+<!--===============================================================================================-->
+</head>
+<body class="animsition">
+	
+	<!-- Header -->
+	<header class="header-v4">
+		<!-- Header desktop -->
+		<div class="container-menu-desktop">
+			<!-- Topbar -->
+			<div class="top-bar">
+				<div class="content-topbar flex-sb-m h-full container">
+					<div class="left-top-bar">
+						Free shipping for standard order over $100
+					</div>
+
+					<div class="right-top-bar flex-w h-full">
+						<a href="#" class="flex-c-m trans-04 p-lr-25">
+							Help & FAQs
+						</a>
+
+						<a href="#" class="flex-c-m trans-04 p-lr-25">
+							My Account
+						</a>
+
+						<a href="#" class="flex-c-m trans-04 p-lr-25">
+							EN
+						</a>
+
+						<a href="#" class="flex-c-m trans-04 p-lr-25">
+							EGP
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="wrap-menu-desktop how-shadow1">
+				<nav class="limiter-menu-desktop container">
+					
+					<!-- Logo desktop -->		
+					<a href="../index.html" class="logo navbar-brand" style="color: black;">
+                    SelSal.store
+
+					</a>
+
+					<!-- Menu desktop -->
+					<div class="menu-desktop">
+						<ul class="main-menu">
+							<li>
+								<a href="../index.html">Home</a>
+							</li>
+
+							<li>
+								<a href="../product.html">Shop</a>
+							</li>
+
+							<li>
+								<a href="../shoping-cart.html">Cart</a>
+							</li>
+
+							<li >
+								<a href="../blog.html">Blog</a>
+							</li>
+
+							<li>
+								<a href="../about.html">About</a>
+							</li>
+
+							<li>
+								<a href="../contact.html">Contact</a>
+							</li>
+                            <li class="active-menu">
+								<a href="../login_register/login.html">log in</a>
+							</li>
+						</ul>
+					</div>	
+
+					<!-- Icon header -->
+					<div class="wrap-icon-header flex-w flex-r-m">
+						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
+							<i class="zmdi zmdi-search"></i>
+						</div>
+
+						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="3">
+							<i class="zmdi zmdi-shopping-cart"></i>
+						</div>
+
+						<a href="#" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="2">
+							<i class="zmdi zmdi-favorite-outline"></i>
+						</a>
+					</div>
+				</nav>
+			</div>	
+		</div>
+
+		<!-- Header Mobile -->
+		<div class="wrap-header-mobile">
+			<!-- Logo moblie -->		
+			<div class="logo-mobile">
+				<a href="../index.html" class="logo navbar-brand" style="color: black;">
+                    SelSal.store
+
+					</a>		
+					</div>
+
+			<!-- Icon header -->
+			<div class="wrap-icon-header flex-w flex-r-m m-r-15">
+				<div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 js-show-modal-search">
+					<i class="zmdi zmdi-search"></i>
+				</div>
+
+				<div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="3">
+					<i class="zmdi zmdi-shopping-cart"></i>
+				</div>
+
+				<a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti" data-notify="2">
+					<i class="zmdi zmdi-favorite-outline"></i>
+				</a>
+			</div>
+
+			<!-- Button show menu -->
+			<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</div>
+		</div>
+
+
+		<!-- Menu Mobile -->
+		<div class="menu-mobile">
+			<ul class="topbar-mobile">
+				<li>
+					<div class="left-top-bar">
+						Free shipping for standard order over 100EGP
+					</div>
+				</li>
+
+				<li>
+					<div class="right-top-bar flex-w h-full">
+						<a href="#" class="flex-c-m p-lr-10 trans-04">
+							Help & FAQs
+						</a>
+
+						<a href="../login_register/login.html" class="flex-c-m p-lr-10 trans-04">
+							My Account
+						</a>
+
+						<a href="#" class="flex-c-m p-lr-10 trans-04">
+							EN
+						</a>
+
+						<a href="#" class="flex-c-m p-lr-10 trans-04">
+							EGP
+						</a>
+					</div>
+				</li>
+			</ul>
+
+			<ul class="main-menu-m">
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="../product.html">Shop</a>
+                    </li>
+
+                    <li>
+                        <a href="../shoping-cart.html">Cart</a>
+                    </li>
+
+                    <li >
+                        <a href="../blog.html">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="../about.html">About</a>
+                    </li>
+
+                    <li>
+                        <a href="../contact.html">Contact</a>
+                    </li>
+                    <li class="active-menu">
+                        <a href="../login_register/login.html">log in</a>
+                    </li>
+                </ul>
+		</div>
+
+		<!-- Modal Search -->
+		<div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+			<div class="container-search-header">
+				<button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
+					<img src="../images/icons/icon-close2.png" alt="CLOSE">
+				</button>
+
+				<form class="wrap-search-header flex-w p-l-15">
+					<button class="flex-c-m trans-04">
+						<i class="zmdi zmdi-search"></i>
+					</button>
+					<input class="plh3" type="text" name="search" placeholder="Search...">
+				</form>
+			</div>
+		</div>
+	</header>
+
+<!-- Cart -->
+<div class="wrap-header-cart js-panel-cart">
+	<div class="s-full js-hide-cart"></div>
+
+	<div class="header-cart flex-col-l p-l-65 p-r-25">
+		<div class="header-cart-title flex-w flex-sb-m p-b-8">
+			<span class="mtext-103 cl2">
+				Your Cart
+			</span>
+
+			<div class="fs-35 lh-10 cl2 p-lr-5 pointer hov-cl1 trans-04 js-hide-cart">
+				<i class="zmdi zmdi-close"></i>
+			</div>
+		</div>
+		
+		<div class="header-cart-content flex-w js-pscroll">
+			<ul class="header-cart-wrapitem w-full">
+				<li class="header-cart-item flex-w flex-t m-b-12">
+					<div class="header-cart-item-img">
+						<img src="../images/prod/201.jpg" alt="IMG">
+					</div>
+
+					<div class="header-cart-item-txt p-t-8">
+						<a href="../prod_pages/product12.html" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+							Small Cottage Hand-painted Stone-like Key chain
+						</a>
+
+						<span class="header-cart-item-info">
+							2 x 85EGP
+						</span>
+					</div>
+				</li>
+
+				<li class="header-cart-item flex-w flex-t m-b-12">
+					<div class="header-cart-item-img">
+						<img src="../images/prod/202.jpg" alt="IMG">
+					</div>
+
+					<div class="header-cart-item-txt p-t-8">
+						<a href="../prod_pages/product9.html" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+							Crimson red Hand-painted Stone-like Key chain with writing
+						</a>
+
+						<span class="header-cart-item-info">
+							1 x 90EGP
+						</span>
+					</div>
+				</li>
+
+				<li class="header-cart-item flex-w flex-t m-b-12">
+					<div class="header-cart-item-img">
+						<img src="../images/prod/203.jpg" alt="IMG">
+					</div>
+
+					<div class="header-cart-item-txt p-t-8">
+						<a href="../prod_pages/product14.html" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+							Cottage Hand-painted Stone-like Key chain
+						</a>
+
+						<span class="header-cart-item-info">
+							1 x 120EGP
+						</span>
+					</div>
+				</li>
+			</ul>
+			
+			<div class="w-full">
+				<div class="header-cart-total w-full p-tb-40">
+					Total: 295EGP
+				</div>
+
+				<div class="header-cart-buttons flex-w w-full">
+					<a href="../shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+						View Cart
+					</a>
+
+					<a href="../shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+						Check Out
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+	
+
+
+
+
+<div class="example-text container" style="margin-top: 100px; margin-bottom: 100px: ">
+    
+    
+<h2>Selsal Policy</h2>
+    
+    
+    <p>Please read these terms of service carefully before using the website operated by Selsal.</p>
+    
+    <br>
+<h3>Personal Information:</h3>
+    <br>
+<p>All personal information you provide us with or that we obtain will be handled by Selsal as responsible for the personal information.  The personal information you provide will be used to ensure deliveries to         you, the credit assessment, to provide offers and information on our catalog to you. The information you provide is only available to Selsal and will not be shared with other third parties.  You have the right to inspect the information held about you. You always have the right to request Selsal to delete or correct the information held about you.</p>
+    <br>
+    
+<h3>Payment Options: </h3>
+    
+     <br>
+<p>You can choose from the following payment option:</p>
+     <br>
+    <ul>
+        <li><strong>Cash on Delivery:</strong></li>
+         <br>
+        <p>We use Cash on Deliver (COD) payment option for orders placed in Cairo, Giza and Alexandria. You can pay cash while receiving you shipment that is to be delivered through a shipping courier. For more details about shipping see Shippingsection below.</p>
+         <br>
+        <li><strong>Credit Card:</strong></li>
+         <br>
+        <p>All transfers conducted through Selsal are handled and transacted through third party dedicated gateways to guarantee your protection. Card information is not stored and all card information is handled over SSL encryption. </p>
+         <br>
+    <li><strong>Pay in Store:</strong></li>
+         <br>
+        <p>You can pay cash in our store located in 261 L Hadayek Al Ahram. After placing you order and choosing pay in store option, you’ll receive a call from us confirming your order and the pick-up day, so that you can pick up you order from us and pay in the store.</p>
+         <br>
+    </ul>
+     <br>
+    <h3>Shipping:</h3>
+     <br>
+    <ul>
+    <li>- &nbsp; Shipping within Cairo, Giza and Alexandria is done through a shipping courier. Shipments are delivered within 5-7 days after ordering.</li>
+         <br>
+    <li>- &nbsp; Shipping to governorates other than Cairo, Giza and Alexandria is provided though Egypt express mail. And payment should be sent in advance through Vodafone cash.  For more details you can call us on +201015109677 or email us atinfo@selsal.online . Shipments are delivered within 5-7 days after payment.</li>
+         <br>
+    <li>- &nbsp; We ship internationally through the Egyptian Express Mail (EGYMAIL). Shipment takes 7-10 days to be delivered; according to the country.</li>
+         <br>
+    <li>- &nbsp; Shipping costs and payment fees are recognized before confirming the purchase.</li>
+         <br>
+    </ul>
+    
+    
+    <h3>Order Confirmation:</h3>
+    
+    <br>
+    
+    <p>An order confirmation will be emailed to you within one business day of placing your order. If you do not receive a confirmation email, please check your spam folder to make sure it hasn’t been filtered. </p>
+    <br>
+
+<p>We also call our customers to confirm the orders within one business day of placing the orders.  And for any concerns you may also call us at +201015109677or email us at <a href="#">info@selsal.online</a> to confirm your order.</p>
+    <br>
+    
+<h3>Changes & Cancellations:</h3>
+    <br>
+    <p>Call or email us right away if you need to make a change to your order. Once an order has been shipped changes cannot be made. </p>
+    <br>
+<h3>Returns & Exchanges:</h3>
+    <br>
+<p>You can return any purchased item if it’s not a personalized item (gifts with names or customized writings); excluding the original shipping cost as well as the shipping cost to send the replacement. If you wish to return a personalized item we offer exchange only; excluding the original shipping cost as well as the shipping cost to send the replacement. </p>
+    
+    <br>
+    
+<p>All sale and discounted items and Special Orders are final sale. Returns must be sent in new, unused condition with original tags attached and in original packaging within 3 days of receipt of package. Please send us the unused item(s), packaged properly, and sent prepaid. Return is done through the same method of shipping to our address:</p>
+    
+    <br>
+    
+    <p>Selsal Studio</p>
+    <br>
+    <p>261 L Hadayek Al Ahram</p>
+    <br>
+    <p>Mina Gate</p>
+    <br>
+    <p>+201015109677</p>
+    <br>
+    
+    <br>
+    
+<p>Please note that shipping costs are non-refundable. Therefore, we do not cover shipping costs to send back a returned item or issue a refund for the original shipping costs. Once we receive your returned package in good form, we will process your refund. Again, you will only be refunded for the amount of the product(s) being returned, not for the shipping.</p>
+    <br>
+    
+    
+    
+    <h3>Additional Information:</h3>
+    
+    <br>
+    
+<p>Selsal Gift Store reserves the right to make changes and updates to products without any notification to the customer. These updates and changes may include, but are not limited to: product description, price, and shipping cost, terms of purchase and product offerings.</p>
+    
+    <br>
+<p>If a product you purchase is backordered or out-of-stock, we will contact you via email within 24 hours.</p>
+    
+    <br>
+    
+    <p>Questions? Email us at info@selsal.online or call us at +201015109677 and we will gladly provide assistance.</p>
+    <br><br><br><br>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="bg3 p-t-75 p-b-32">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-3 p-b-50">
+                <h4 class="stext-301 cl0 p-b-30">
+                    Categories
+                </h4>
+
+                <ul>
+                    <li class="p-b-10">
+                        <a href="../product.html" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+                            Necklace
+                        </a>
+                    </li>
+
+                    <li class="p-b-10">
+                        <a href="../product.html" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+                            keychaim
+                        </a>
+                    </li>
+
+                    <li class="p-b-10">
+                        <a href="../product.html" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
+                            gifts
+                        </a>
+                    </li>
+                
+                </ul>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 p-b-50">
+                <h4 class="stext-301 cl0 p-b-30">
+                    Help
+                </h4>
+
+                <ul>
+                    <li class="p-b-10">
+                        <a href="../track order/track_order.html" class="stext-107 cl7 hov-cl1 trans-04">
+                            Track Order
+                        </a>
+                    </li>
+
+                    <li class="p-b-10">
+                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                            Returns 
+                        </a>
+                    </li>
+
+                    <li class="p-b-10">
+                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                            Shipping
+                        </a>
+                    </li>
+
+                    <li class="p-b-10">
+                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                            FAQs
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 p-b-50">
+                <h4 class="stext-301 cl0 p-b-30">
+                    GET IN TOUCH
+                </h4>
+
+                <p class="stext-107 cl7 size-201">
+                    Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+                </p>
+
+                <div class="p-t-27">
+                    <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+
+                    <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                        <i class="fa fa-pinterest-p"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 p-b-50">
+                <h4 class="stext-301 cl0 p-b-30">
+                    Newsletter
+                </h4>
+
+                <form>
+                    <div class="wrap-input1 w-full p-b-4">
+                        <input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email" placeholder="email@example.com">
+                        <div class="focus-input1 trans-04"></div>
+                    </div>
+
+                    <div class="p-t-18">
+                        <button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+                            Subscribe
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="p-t-40">
+            <div class="flex-c-m flex-w p-b-18">
+                <a href="#" class="m-all-1">
+                    <img src="../images/icons/icon-pay-01.png" alt="ICON-PAY">
+                </a>
+
+                <a href="#" class="m-all-1">
+                    <img src="../images/icons/icon-pay-02.png" alt="ICON-PAY">
+                </a>
+
+                <a href="#" class="m-all-1">
+                    <img src="../images/icons/icon-pay-03.png" alt="ICON-PAY">
+                </a>
+
+                <a href="#" class="m-all-1">
+                    <img src="../images/icons/icon-pay-04.png" alt="ICON-PAY">
+                </a>
+
+                <a href="#" class="m-all-1">
+                    <img src="../images/icons/icon-pay-05.png" alt="ICON-PAY">
+                </a>
+            </div>
+
+            <p class="stext-107 cl6 txt-center">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Back to top -->
+<div class="btn-back-to-top" id="myBtn">
+    <span class="symbol-btn-back-to-top">
+        <i class="zmdi zmdi-chevron-up"></i>
+    </span>
+</div>
+
+<!--===============================================================================================-->	
+<script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="../vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+<script src="../vendor/bootstrap/js/popper.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="../vendor/select2/select2.min.js"></script>
+<script>
+    $(".js-select2").each(function(){
+        $(this).select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $(this).next('.dropDownSelect2')
+        });
+    })
+</script>
+<!--===============================================================================================-->
+<script src="../vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+<!--===============================================================================================-->
+<script src="../vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script>
+    $('.js-pscroll').each(function(){
+        $(this).css('position','relative');
+        $(this).css('overflow','hidden');
+        var ps = new PerfectScrollbar(this, {
+            wheelSpeed: 1,
+            scrollingThreshold: 1000,
+            wheelPropagation: false,
+        });
+
+        $(window).on('resize', function(){
+            ps.update();
+        })
+    });
+</script>
+<!--===============================================================================================-->
+<script src="../js/main.js"></script>
+
+</body>
+</html>
